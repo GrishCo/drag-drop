@@ -35,7 +35,6 @@ body {
   border: 1px solid #eee;
   box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
   border-radius: 20px;
-  /* background: #68e0cf; */
   background: linear-gradient(240deg, #84fab0 30%, #229efd 100%);
   padding: 0.8rem 1rem;
   color: #828282;
@@ -50,6 +49,9 @@ body {
 .placeholder {
   width: 150px;
   height: 66px;
+  
+  background-color: rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
 }
 
 .start {
@@ -76,5 +78,4 @@ body {
 .hovered {
   background-color: #28fa949d;
   border-radius: 15px;
-  /* border-top: 2px solid #8ed7ed; */
 }
